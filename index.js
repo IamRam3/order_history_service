@@ -1,4 +1,5 @@
 import express from 'express';
+import cors from 'cors';
 import { graphqlHTTP } from 'express-graphql';
 import { buildSchema } from 'graphql';
 import {mockStockPrices, mockHistoricalData, mockCompanyInfo, mockUserPortfolios} from "./mockData.js";
@@ -58,6 +59,7 @@ const root = {
 
 // Create an express server
 const app = express();
+app.use(cors()); // Enable CORS for all routes
 
 // Define the GraphQL endpoint
 app.use('/graphql', graphqlHTTP({
