@@ -1,0 +1,20 @@
+{
+  "name": "order_history_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamRam3/order_history_service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IamRam3/order_history_service/issues"
+  },
+  "homepage": "https://github.com/IamRam3/order_history_service#readme"
+}
